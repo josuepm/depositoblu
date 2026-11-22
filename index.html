@@ -493,6 +493,53 @@ a {
   background: #d8eeff;
 }
 
+/* SEYTÚ Cross-Link Banner */
+.seytu-partner-section {
+  padding: 24px 0 64px;
+}
+
+.seytu-banner {
+  background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+  border: 1px solid #dfc5f7;
+  border-radius: 22px;
+  padding: 36px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  box-shadow: var(--shadow-sm);
+}
+
+.seytu-banner-content {
+  max-width: 650px;
+}
+
+.seytu-pill {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: #e9d5ff;
+  color: var(--omni-purple-dark);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.seytu-banner h3 {
+  font-size: clamp(1.45rem, 2.5vw, 1.95rem);
+  color: var(--blu-deep);
+  font-weight: 800;
+  margin-bottom: 8px;
+  line-height: 1.22;
+}
+
+.seytu-banner p {
+  color: var(--muted);
+  font-size: 0.97rem;
+}
+
 /* Affiliation Centered Block */
 .affiliation-section {
   padding: 72px 0;
@@ -824,6 +871,12 @@ a {
   .visit-content-row {
     grid-template-columns: 1fr;
   }
+
+  .seytu-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 24px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -864,6 +917,7 @@ a {
   <nav class="main-nav" aria-label="Navegación principal">
     <a href="#inicio">Inicio</a>
     <a href="#catalogo-omnilife">Catálogo Omnilife</a>
+    <a href="https://josuepm.github.io/seytu/" target="_blank" rel="noopener noreferrer">SEYTÚ Cosmética</a>
     <a href="#afiliacion">Afiliación</a>
     <a href="#programas-digitales">Programas Digitales</a>
     <a href="#visitanos">Ubicación</a>
@@ -934,13 +988,31 @@ a {
   </div>
 </section>
 
+<!-- Banner Cruzado hacia SEYTÚ Cosmética -->
+<section class="seytu-partner-section">
+  <div class="container">
+    <div class="seytu-banner">
+      <div class="seytu-banner-content">
+        <span class="seytu-pill">Cosmética Hipoalergénica & Cuidado Personal</span>
+        <h3>Descubre la Línea Completa SEYTÚ</h3>
+        <p>
+          Complementa tu bienestar nutricional con cosméticos libres de parabenos, no probados en animales, maquillaje resistente al agua, cuidado facial y capilar.
+        </p>
+      </div>
+      <a href="https://josuepm.github.io/seytu/" target="_blank" rel="noopener noreferrer" class="btn btn-purple">
+        Ir a Catálogo SEYTÚ ➔
+      </a>
+    </div>
+  </div>
+</section>
+
 <section id="afiliacion" class="affiliation-section">
   <div class="container">
     <div class="affiliation-box">
-      <span class="section-kicker">Oportunidad Omnilife</span>
+      <span class="section-kicker">Oportunidad Omnilife y SEYTÚ</span>
       <h2>Oportunidad de Afiliación Omnilife</h2>
       <p>
-        Adquiere tu membresía de Empresario Independiente Omnilife para comprar tus suplementos con descuentos progresivos del 20% al 40%, o inicia tu propio negocio distribuyendo nutrición y belleza en más de 20 países.
+        Adquiere tu membresía de Empresario Independiente Omnilife para comprar tus suplementos y cosméticos SEYTÚ con descuentos progresivos del 20% al 40%, o inicia tu propio negocio distribuyendo nutrición y belleza en más de 20 países.
       </p>
       <div class="affiliation-perks">
         <span class="perk-pill">Descuentos del 20% al 40%</span>
@@ -951,6 +1023,9 @@ a {
       <div class="affiliation-actions">
         <a href="https://portal.omnilife.com/registro?distributor_code=007475MHR&country_code=MEX&lang=es" target="_blank" rel="noopener noreferrer" class="btn btn-purple">
           Afiliarme Ahora en Omnilife
+        </a>
+        <a href="https://josuepm.github.io/seytu/" target="_blank" rel="noopener noreferrer" class="btn btn-call">
+          Explorar Catálogo SEYTÚ
         </a>
         <a href="https://wa.me/526568204699?text=Hola%20Depósito%20Blu,%20me%20interesa%20afiliarme%20a%20Omnilife%20con%20ustedes." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
           Pedir Orientación por WhatsApp
@@ -1047,6 +1122,7 @@ a {
     <ul>
       <li><a href="#inicio">Inicio</a></li>
       <li><a href="#catalogo-omnilife">Catálogo Omnilife</a></li>
+      <li><a href="https://josuepm.github.io/seytu/" target="_blank" rel="noopener noreferrer">SEYTÚ Cosmética</a></li>
       <li><a href="#afiliacion">Oportunidad de Afiliación</a></li>
       <li><a href="#programas-digitales">Programas Digitales</a></li>
       <li><a href="#visitanos">Ubicación y Horarios</a></li>
